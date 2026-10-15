@@ -1,0 +1,11 @@
+{
+  "name": "cci-olu-obasanjo-chatbot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CCI Olu-Obasanjo welcome assistant: RAG chatbot, follow-up inbox, email alerts. Deploys on Vercel.",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "hash": "node scripts/hash.js",
+    "dev": "node scripts/dev-server.js"
+  }
+}
